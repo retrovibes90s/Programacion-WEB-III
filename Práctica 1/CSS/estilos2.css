@@ -38,7 +38,7 @@ h2{
 }
 p{
   
-    width: 50%;
+    width: 60%;
     font-size: 20px;
     text-align: justify;
     padding:10px;
@@ -46,35 +46,45 @@ p{
     
 }
 aside{
-    width: 50%;
-    display: flexbox;
+    width: 40%;
+    display: flex;
     background-color: #53A8D3;
     padding:10px;
+    justify-content: center;
+    align-items: center;
     
+}
+aside div p{
+    display: flex;
+    font-size: medium;
 }
 
 aside p{
-    text-align:start;
+    text-align:justify;
+    font-size: small;
+    
    
 }
 aside a{
+    display: flex;
+    color:blue;
     
-    display:inline-flex;
-    justify-content: center;
  
 }
 
 footer{
     width: 100%;
-    height: 70px;
+    height: 120px;
     background-color: #555E48;
     margin-top: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
     color:antiquewhite;
-    text-align: center;
+    display:flex;
     justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center;
 }
 
-footer p{
-    display: inline;
-}
+
